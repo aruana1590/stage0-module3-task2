@@ -1,7 +1,13 @@
 package lang.print.gaps.task2;
 
+import java.util.logging.Logger;
+import java.util.logging.LogRecord;
+import java.util.logging.StreamHandler;
+
+
 public class JavaVariableNames {
     public static void main(String[] args) {
+
         int morrow = 0;
         int money=10;
         int hundred = 100;
@@ -10,6 +16,7 @@ public class JavaVariableNames {
         int sharp = 100000;
         int star = 1000000;
         int badExampleOfVarName = 1000000;
+
         System.out.println(morrow);
         System.out.println(money);
         System.out.println(hundred);
